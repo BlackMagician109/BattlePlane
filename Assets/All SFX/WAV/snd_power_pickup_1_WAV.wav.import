@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ss0tyq5jsm2r"
+path="res://.godot/imported/snd_power_pickup_1_WAV.wav-056368cbe5ac21d57cab11ac13f6f857.sample"
+
+[deps]
+
+source_file="res://Assets/All SFX/WAV/snd_power_pickup_1_WAV.wav"
+dest_files=["res://.godot/imported/snd_power_pickup_1_WAV.wav-056368cbe5ac21d57cab11ac13f6f857.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bb8gxaiqlg08l"
+path="res://.godot/imported/snd_building_collapse_OGG.ogg-73c6dc4eacbcc581725dcae71ca80d7a.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/All SFX/OGG/snd_building_collapse_OGG.ogg"
+dest_files=["res://.godot/imported/snd_building_collapse_OGG.ogg-73c6dc4eacbcc581725dcae71ca80d7a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

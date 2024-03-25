@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://pdedwo3lqv8n"
+path="res://.godot/imported/snd_missile_launch_woosh_2_WAV.wav-2d32dbbd607c63aea0db6547c3fba89b.sample"
+
+[deps]
+
+source_file="res://Assets/All SFX/WAV/snd_missile_launch_woosh_2_WAV.wav"
+dest_files=["res://.godot/imported/snd_missile_launch_woosh_2_WAV.wav-2d32dbbd607c63aea0db6547c3fba89b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

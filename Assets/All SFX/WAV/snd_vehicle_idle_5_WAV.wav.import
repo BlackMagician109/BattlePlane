@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cihx18ethg7i8"
+path="res://.godot/imported/snd_vehicle_idle_5_WAV.wav-6ad6146683b4c6359f0e4344f1228b9d.sample"
+
+[deps]
+
+source_file="res://Assets/All SFX/WAV/snd_vehicle_idle_5_WAV.wav"
+dest_files=["res://.godot/imported/snd_vehicle_idle_5_WAV.wav-6ad6146683b4c6359f0e4344f1228b9d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

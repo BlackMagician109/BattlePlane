@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dkagpc5s32dpi"
+path="res://.godot/imported/snd_turret_cannon_fire_1_OGG.ogg-fe70ae3355018920752e96be01ab7f0b.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/All SFX/OGG/snd_turret_cannon_fire_1_OGG.ogg"
+dest_files=["res://.godot/imported/snd_turret_cannon_fire_1_OGG.ogg-fe70ae3355018920752e96be01ab7f0b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

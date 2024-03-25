@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bs2le3irijbkc"
+path="res://.godot/imported/snd_shield_break_OGG.ogg-b9fa40c15a789cbf982b7af60f6768c8.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/All SFX/OGG/snd_shield_break_OGG.ogg"
+dest_files=["res://.godot/imported/snd_shield_break_OGG.ogg-b9fa40c15a789cbf982b7af60f6768c8.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

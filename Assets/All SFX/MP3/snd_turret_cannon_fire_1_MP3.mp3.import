@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://stymutvor2jf"
+path="res://.godot/imported/snd_turret_cannon_fire_1_MP3.mp3-4d30a9bd10b2a03270aaf7551f4e5b6c.mp3str"
+
+[deps]
+
+source_file="res://Assets/All SFX/MP3/snd_turret_cannon_fire_1_MP3.mp3"
+dest_files=["res://.godot/imported/snd_turret_cannon_fire_1_MP3.mp3-4d30a9bd10b2a03270aaf7551f4e5b6c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

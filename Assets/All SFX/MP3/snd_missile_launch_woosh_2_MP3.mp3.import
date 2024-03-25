@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://hg8slwx8kh4e"
+path="res://.godot/imported/snd_missile_launch_woosh_2_MP3.mp3-3302ed9c05aeb44e1ced4a142b9fd3d0.mp3str"
+
+[deps]
+
+source_file="res://Assets/All SFX/MP3/snd_missile_launch_woosh_2_MP3.mp3"
+dest_files=["res://.godot/imported/snd_missile_launch_woosh_2_MP3.mp3-3302ed9c05aeb44e1ced4a142b9fd3d0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

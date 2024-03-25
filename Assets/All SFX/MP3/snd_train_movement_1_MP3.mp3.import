@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cn3sxgxja87lv"
+path="res://.godot/imported/snd_train_movement_1_MP3.mp3-19235d5f3605d7cf3d76558443195ed7.mp3str"
+
+[deps]
+
+source_file="res://Assets/All SFX/MP3/snd_train_movement_1_MP3.mp3"
+dest_files=["res://.godot/imported/snd_train_movement_1_MP3.mp3-19235d5f3605d7cf3d76558443195ed7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

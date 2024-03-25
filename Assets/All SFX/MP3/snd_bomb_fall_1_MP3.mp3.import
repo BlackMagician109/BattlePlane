@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cfnbp0uxcd154"
+path="res://.godot/imported/snd_bomb_fall_1_MP3.mp3-58646ddd620efde041d09c60b0a5b280.mp3str"
+
+[deps]
+
+source_file="res://Assets/All SFX/MP3/snd_bomb_fall_1_MP3.mp3"
+dest_files=["res://.godot/imported/snd_bomb_fall_1_MP3.mp3-58646ddd620efde041d09c60b0a5b280.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

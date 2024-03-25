@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://ci64hbx4ch27x"
+path="res://.godot/imported/snd_vehicle_flight_moving_3_OGG.ogg-366654b1d97200721c5fb94aeb3773bc.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/All SFX/OGG/snd_vehicle_flight_moving_3_OGG.ogg"
+dest_files=["res://.godot/imported/snd_vehicle_flight_moving_3_OGG.ogg-366654b1d97200721c5fb94aeb3773bc.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

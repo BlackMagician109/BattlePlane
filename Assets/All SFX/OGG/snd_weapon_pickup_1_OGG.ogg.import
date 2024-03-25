@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dmvp1efujgyp1"
+path="res://.godot/imported/snd_weapon_pickup_1_OGG.ogg-9e68a4fd50a5c2f77fecbc69267787ab.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/All SFX/OGG/snd_weapon_pickup_1_OGG.ogg"
+dest_files=["res://.godot/imported/snd_weapon_pickup_1_OGG.ogg-9e68a4fd50a5c2f77fecbc69267787ab.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

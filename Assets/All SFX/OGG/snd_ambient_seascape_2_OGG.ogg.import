@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b8k20d4ll7owh"
+path="res://.godot/imported/snd_ambient_seascape_2_OGG.ogg-c4a195e2c1d9268d8383f4bb71efc0de.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/All SFX/OGG/snd_ambient_seascape_2_OGG.ogg"
+dest_files=["res://.godot/imported/snd_ambient_seascape_2_OGG.ogg-c4a195e2c1d9268d8383f4bb71efc0de.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

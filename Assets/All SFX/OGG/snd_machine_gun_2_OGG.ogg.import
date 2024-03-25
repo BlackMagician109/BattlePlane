@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bqy0ali0388sv"
+path="res://.godot/imported/snd_machine_gun_2_OGG.ogg-8177ede47b878ffb6294bb46009e0181.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/All SFX/OGG/snd_machine_gun_2_OGG.ogg"
+dest_files=["res://.godot/imported/snd_machine_gun_2_OGG.ogg-8177ede47b878ffb6294bb46009e0181.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

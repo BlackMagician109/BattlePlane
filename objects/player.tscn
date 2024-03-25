@@ -1,0 +1,105 @@
+[gd_scene load_steps=9 format=3 uid="uid://bsvlwkpkch26k"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_1g4x6"]
+[ext_resource type="Texture2D" uid="uid://ds74ob8qsunh2" path="res://Assets/Player/spr_plane_player.png" id="1_s18aj"]
+
+[sub_resource type="Animation" id="Animation_gk3xt"]
+resource_name = "idle"
+length = 0.8
+loop_mode = 1
+step = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3]
+}
+
+[sub_resource type="Animation" id="Animation_homrt"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_12gl0"]
+resource_name = "right"
+length = 0.8
+loop_mode = 1
+step = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [4, 4, 5, 6]
+}
+
+[sub_resource type="Animation" id="Animation_1arr1"]
+resource_name = "left"
+length = 0.8
+loop_mode = 1
+step = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [8, 9, 10, 11]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_f6ts3"]
+_data = {
+"RESET": SubResource("Animation_homrt"),
+"idle": SubResource("Animation_gk3xt"),
+"left": SubResource("Animation_1arr1"),
+"right": SubResource("Animation_12gl0")
+}
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fgwhr"]
+radius = 23.0
+height = 46.0
+
+[node name="player" type="CharacterBody2D"]
+script = ExtResource("1_1g4x6")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_s18aj")
+hframes = 4
+vframes = 3
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_f6ts3")
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("CapsuleShape2D_fgwhr")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)

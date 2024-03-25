@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bhvhlt5jv5xnt"
+path="res://.godot/imported/snd_power_pickup_1_MP3.mp3-4117f18b8f2ac57af63c7fbb8e2f4eff.mp3str"
+
+[deps]
+
+source_file="res://Assets/All SFX/MP3/snd_power_pickup_1_MP3.mp3"
+dest_files=["res://.godot/imported/snd_power_pickup_1_MP3.mp3-4117f18b8f2ac57af63c7fbb8e2f4eff.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://f7drkwupgujt"
+path="res://.godot/imported/snd_train_movement_1_OGG.ogg-03d3812acce11df0c19d9abc1223950d.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/All SFX/OGG/snd_train_movement_1_OGG.ogg"
+dest_files=["res://.godot/imported/snd_train_movement_1_OGG.ogg-03d3812acce11df0c19d9abc1223950d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

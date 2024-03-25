@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dex0yu0foacsx"
+path="res://.godot/imported/snd_turret_cannon_fire_1_WAV.wav-cc4bb222cd58661fe14db00440c34261.sample"
+
+[deps]
+
+source_file="res://Assets/All SFX/WAV/snd_turret_cannon_fire_1_WAV.wav"
+dest_files=["res://.godot/imported/snd_turret_cannon_fire_1_WAV.wav-cc4bb222cd58661fe14db00440c34261.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
