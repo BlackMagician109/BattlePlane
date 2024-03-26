@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-const speed = 300
+const speed = -3
 
 @onready var anime = $AnimationPlayer
 
@@ -16,20 +16,8 @@ func _input(event):
 
 func _physics_process(delta):
 	
+	#position.x = get_local_mouse_position().x
+	#position.y += speed
 	position = get_global_mouse_position()
 	
-	#direction = Input.get_axis("left", "right")
-	#
-	#InputEventMouse
-	#
-	#if is_on_floor():
-		#anime.play("idle")
-	#
-	#if direction:
-		#velocity.x = direction * speed
-		#anime.play("right")
-	#else:
-		#velocity.x = move_toward(velocity.x, 0, speed)
-		#anime.play("left")
-
 	move_and_slide()

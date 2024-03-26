@@ -1,3 +1,6 @@
-res://objects/player.tscn
-res://scripts/player.gd
 res://levels/level_1.tscn
+res://objects/player.tscn
+res://objects/projectiles/bullet_small.tscn
+res://scripts/player.gd
+res://trial.tscn
+res://scripts/level_1.gd
