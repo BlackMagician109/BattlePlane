@@ -1,7 +1,11 @@
+AnimatedSprite2D
 Sprite2D
-AnimationPlayer
 CollisionShape2D
+Area2D
+Node2D
+AnimationPlayer
 CharacterBody2D
+Timer
 Camera2D
 TileMap
 ParallaxBackground

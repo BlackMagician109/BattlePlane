@@ -1,6 +1,9 @@
-res://levels/level_1.tscn
 res://objects/player.tscn
-res://objects/projectiles/bullet_small.tscn
 res://scripts/player.gd
-res://trial.tscn
+res://levels/level_1.tscn
+res://objects/projectiles/bullet_small.tscn
+res://scripts/bullet_small.gd
 res://scripts/level_1.gd
+res://objects/enemies/small_enemy.tscn
+res://scripts/small_enemy.gd
+res://scripts/Global.gd

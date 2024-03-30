@@ -1,7 +1,8 @@
-[gd_scene load_steps=9 format=3 uid="uid://bsvlwkpkch26k"]
+[gd_scene load_steps=11 format=3 uid="uid://bsvlwkpkch26k"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_1g4x6"]
 [ext_resource type="Texture2D" uid="uid://ds74ob8qsunh2" path="res://Assets/Player/spr_plane_player.png" id="1_s18aj"]
+[ext_resource type="PackedScene" uid="uid://bhn30g6c0vlkk" path="res://objects/projectiles/bullet_small.tscn" id="2_lkhuv"]
 
 [sub_resource type="Animation" id="Animation_homrt"]
 length = 0.001
@@ -84,8 +85,13 @@ _data = {
 radius = 23.0
 height = 46.0
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jtbhs"]
+radius = 17.0
+height = 50.0
+
 [node name="player" type="CharacterBody2D"]
 script = ExtResource("1_1g4x6")
+bullet = ExtResource("2_lkhuv")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_s18aj")
@@ -100,3 +106,16 @@ libraries = {
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
 shape = SubResource("CapsuleShape2D_fgwhr")
+
+[node name="shootingTimer" type="Timer" parent="."]
+
+[node name="bulletSpawn" type="Node2D" parent="."]
+position = Vector2(0, -20)
+
+[node name="Area2D" type="Area2D" parent="." groups=["player"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, -1)
+shape = SubResource("CapsuleShape2D_jtbhs")
+
+[connection signal="timeout" from="shootingTimer" to="." method="_on_shooting_timer_timeout"]

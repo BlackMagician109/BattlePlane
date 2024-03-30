@@ -1,10 +1,24 @@
 extends CharacterBody2D
 
-const speed = -3
+const speed = -1
 
 @onready var anime = $AnimationPlayer
+@onready var shootingPause = $shootingTimer
+
+@export var bullet:PackedScene
 
 var direction
+
+func _ready():
+	shootingPause.start(0.1)
+
+
+func shoot():
+	var bulletToInstanciate = bullet.instantiate()
+	bulletToInstanciate.global_position = $bulletSpawn.global_position
+	get_tree().root.add_child(bulletToInstanciate)
+
+	pass
 
 func _input(event):
 	if event is InputEventMouseMotion:
@@ -21,3 +35,9 @@ func _physics_process(delta):
 	position = get_global_mouse_position()
 	
 	move_and_slide()
+
+
+func _on_shooting_timer_timeout():
+	shoot()
+	shootingPause.start(0.3)
+	pass # Replace with function body.
