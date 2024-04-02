@@ -41,3 +41,10 @@ func _on_shooting_timer_timeout():
 	shoot()
 	shootingPause.start(0.3)
 	pass # Replace with function body.
+
+
+func _on_area_2d_body_entered(body):
+	if body.is_in_group("enemy"):
+		get_tree().change_scene_to_file("res://levels/game_over_menu.tscn")
+		#SceneTree.change_scene_to_file("res://levels/game_over_menu.tscn")
+

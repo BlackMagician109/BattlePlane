@@ -1,9 +1,13 @@
+res://scripts/MainMenu.gd
 res://objects/player.tscn
-res://scripts/player.gd
 res://levels/level_1.tscn
 res://objects/projectiles/bullet_small.tscn
-res://scripts/bullet_small.gd
-res://scripts/level_1.gd
 res://objects/enemies/small_enemy.tscn
-res://scripts/small_enemy.gd
+res://objects/VFX/small_explosion.tscn
+res://levels/main_menu.tscn
+res://scripts/game_over_menu.gd
+res://levels/game_over_menu.tscn
+res://scripts/player.gd
+res://scripts/level_1.gd
 res://scripts/Global.gd
+res://scripts/small_enemy.gd

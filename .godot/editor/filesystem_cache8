@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1711749507
+::res://::1712026550
 README.md::TextFile::-1::1711340717::0::1::::<><>::
 ::res://addons/::1711340444
 ::res://addons/godot-git-plugin/::1711340444
@@ -8,7 +8,7 @@ plugin.cfg::TextFile::-1::1711340444::0::1::::<><>::
 THIRDPARTY.md::TextFile::-1::1711340444::0::1::::<><>::
 ::res://addons/godot-git-plugin/linux/::1711340444
 ::res://addons/godot-git-plugin/macos/::1711340444
-::res://addons/godot-git-plugin/win64/::1711749500
+::res://addons/godot-git-plugin/win64/::1712026543
 ::res://addons/parallax_node/::1711266964
 parallax_node.gd::GDScript::-1::1711266962::0::1::::ParallaxNode<>Node2D<>res://addons/parallax_node/parallax_node.svg::
 parallax_node.svg::CompressedTexture2D::1786712971830844334::1711266962::1711266964::1::::<><>::
@@ -263,13 +263,19 @@ spr_ui_font_score_8x8_character_string.txt::TextFile::-1::1704894448::0::1::::<>
 spr_ui_font_text_en_8x8.png::CompressedTexture2D::4122345194076632903::1704894448::1711266646::1::::<><>::
 spr_ui_font_text_en_8x8_character_string.txt::TextFile::-1::1704894448::0::1::::<><>::
 spr_ui_icon_health.png::CompressedTexture2D::8507377321172323929::1704894448::1711266646::1::::<><>::
-::res://levels/::1711444724
-level_1.tscn::PackedScene::3042511099182776142::1711444724::0::1::::<><>::res://scripts/level_1.gd<>uid://cyssfwke04r1u::::res://Assets/Tilesets/spr_tileset_water.png<>uid://bsvlwkpkch26k::::res://objects/player.tscn<>uid://bnrlaxc0u1xhh::::res://Assets/Tilesets/spr_tileset_forest.png<>uid://bjcqrfm57cf65::::res://Assets/Tilesets/spr_tileset_railroad.png
-::res://objects/::1711444739
-player.tscn::PackedScene::3693879525262180076::1711444739::0::1::::<><>::res://scripts/player.gd<>uid://ds74ob8qsunh2::::res://Assets/Player/spr_plane_player.png
-::res://objects/projectiles/::1711444724
-bullet_small.tscn::PackedScene::2906324583761343682::1711444724::0::1::::<><>::uid://cl5hujpjatqbr::::res://Assets/Gameplay/Projectile/spr_projectile_shot_small.png<>res://scripts/bullet_small.gd
-::res://scripts/::1711444723
-bullet_small.gd::GDScript::-1::1711443531::0::1::::<>CharacterBody2D<>::
-level_1.gd::GDScript::-1::1711444692::0::1::::<>Node2D<>::
-player.gd::GDScript::-1::1711444723::0::1::::<>CharacterBody2D<>::
+::res://levels/::1711774085
+level_1.tscn::PackedScene::3042511099182776142::1711774085::0::1::::<><>::res://scripts/level_1.gd<>uid://cyssfwke04r1u::::res://Assets/Tilesets/spr_tileset_water.png<>uid://bsvlwkpkch26k::::res://objects/player.tscn<>uid://d2x6e5nk4jjrf::::res://objects/enemies/small_enemy.tscn<>uid://bnrlaxc0u1xhh::::res://Assets/Tilesets/spr_tileset_forest.png<>uid://bjcqrfm57cf65::::res://Assets/Tilesets/spr_tileset_railroad.png
+::res://objects/::1711774669
+player.tscn::PackedScene::3693879525262180076::1711774085::0::1::::<><>::res://scripts/player.gd<>uid://ds74ob8qsunh2::::res://Assets/Player/spr_plane_player.png<>uid://bhn30g6c0vlkk::::res://objects/projectiles/bullet_small.tscn
+::res://objects/enemies/::1711775604
+small_enemy.tscn::PackedScene::9103732483877366787::1711775604::0::1::::<><>::uid://77lhqddt4yme::::res://Assets/Enemy Vehicles/Small Enemy 1/spr_plane_enemy_small_1.png<>res://scripts/small_enemy.gd
+::res://objects/projectiles/::1711774085
+bullet_small.tscn::PackedScene::2906324583761343682::1711774085::0::1::::<><>::uid://cl5hujpjatqbr::::res://Assets/Gameplay/Projectile/spr_projectile_shot_small.png<>res://scripts/bullet_small.gd
+::res://objects/VFX/::1711774672
+small_explosion.tscn::PackedScene::5609040440395512353::1711774672::0::1::::<><>::uid://b254f6p6kunbt::::res://Assets/Explosions/spr_explosion_small.png
+::res://scripts/::1711775605
+bullet_small.gd::GDScript::-1::1711753954::0::1::::<>CharacterBody2D<>::
+Global.gd::GDScript::-1::1711772122::0::1::::<>Node<>::
+level_1.gd::GDScript::-1::1711773111::0::1::::<>Node2D<>::
+player.gd::GDScript::-1::1711774085::0::1::::<>CharacterBody2D<>::
+small_enemy.gd::GDScript::-1::1711775605::0::1::::<>CharacterBody2D<>::

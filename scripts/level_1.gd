@@ -29,7 +29,6 @@ func _process(delta):
 	if Global.totalEnemy < Global.maxEnemy:
 		spawnSmallEnemy()
 		Global.totalEnemy += 1
-	print(Global.totalEnemy)
 	
 
 
@@ -39,6 +38,7 @@ func _on_area_2d_body_entered(body):
 
 func spawnSmallEnemy():
 	var enemyToInstanciate = enemy.instantiate()
+	Global.allEnemies.append(enemyToInstanciate)
 	var location = randi_range(0, 3)
 	var locationArray = [enemySpawnPosititon1, enemySpawnPosititon2, enemySpawnPosititon3, enemySpawnPosititon4]
 	enemyToInstanciate.global_position = locationArray[location].global_position
@@ -51,3 +51,8 @@ func _on_enemy_despawn_body_entered(body):
 	body.queue_free()
 	Global.totalEnemy -= 1
 	pass # Replace with function body.
+
+
+func _exit_tree():
+	for i in Global.allEnemies:
+		i.queue_free()
