@@ -1,0 +1,7 @@
+res://levels/game_over_menu.tscn::357b9d484a9c296e5512cd75520975a0::1712044636::res://.godot/exported/133200997/export-433f00c304fa4edce458771356b34396-game_over_menu.scn
+res://levels/level_1.tscn::d83b2edbf0d3e5178af8cadd84212d4a::1712044636::res://.godot/exported/133200997/export-12535bc1b7f5d974130914d712c29d37-level_1.scn
+res://levels/main_menu.tscn::4bdde33f226a2a47d7c864fadd5ea10f::1712027935::res://.godot/exported/133200997/export-d4e83b31417540e021f1ffd2ec82c3cc-main_menu.scn
+res://objects/enemies/small_enemy.tscn::3e4ed9007e9d23afc501c791d68302c7::1712044636::res://.godot/exported/133200997/export-472c47d650eb422c70881698c46d37cc-small_enemy.scn
+res://objects/projectiles/bullet_small.tscn::b0452d048bca7aab3d72e6bb6cca91ee::1712038545::res://.godot/exported/133200997/export-6e7bf02a050315d58c69a15c82d8a1b5-bullet_small.scn
+res://objects/VFX/small_explosion.tscn::20d15b816c8bc85b8df44bf423159370::1712038545::res://.godot/exported/133200997/export-912955bdc93bde74de93e810422ac6bf-small_explosion.scn
+res://objects/player.tscn::f0022cf662e6ac449c4ac06b1b29e562::1712044636::res://.godot/exported/133200997/export-fd917217c4a5592248a679abd5f3a5fe-player.scn
